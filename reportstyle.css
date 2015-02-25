@@ -1,0 +1,113 @@
+html{
+    background-image: url(bg1.jpg);
+    background: #BDFDFF;
+}
+    
+body{
+    margin: 0 auto;
+    padding: 0px;
+    width: 1500px;
+    font-size: 25px;
+    line-height: 1em;
+    background-color: white;
+    font-family: Lato;
+    box-shadow: -20px 0px 30px 0px #FFFFFF,20px 0px 30px 0px #FFFFFF;
+}
+
+
+.header{
+    height: 100px;
+    background-color: #2D94EE;
+}
+.header span{
+    font-size: 80px;
+    margin-left: 40px;
+    position: relative;
+    bottom: 10px;
+    font-weight: bold;
+    text-shadow: 3px 2px 20px #333333;
+    color: #F1F5F8;
+}
+#logo{
+    margin-top: 10px;
+    margin-left: 10px;
+    max-height: 80px;
+}
+#contact {
+    float: right;
+    font-size: 30px;
+    padding: 30px;
+    margin-top: 5px;
+    background-color: #D6DEE0;
+    border-radius: 100px 0px 0px 100px;
+    color: #153BFA;
+    font-weight: bold;
+    border: 5px solid #F0F1F1;
+    
+}
+
+/*------------------------------MENU BAR---------------------------------------------*/
+
+.lish-menu{
+    height: 90px;
+    min-width: 1200px;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;;
+    text-shadow: 3px 2px 30px #333333;
+    background: #7C818C;
+    border: 1px solid #A8A8A8;
+    box-shadow: 0px 50px 30px 0px #B0B8C6 inset;
+}
+.lish-menu ul{
+    height: auto;
+    float: left;
+}
+.lish-menu li{
+    display: inline;
+    padding: 10px 50px;
+}
+.lish-menu a{
+    color: #F0F1F4;
+    text-decoration: none;
+}
+.lish-menu a:hover{
+    color: #F90;
+}
+
+/*------------------------------CENTER---------------------------------------------*/
+
+.center{
+    height: 1000px;
+    padding: 10px;
+    background-color: white;
+}
+.pageheader{
+    margin: auto;
+    font-size: 30px;
+    width: 200px;
+}
+
+
+.showorder{
+    height: 800px;
+    max-width: 650px;
+    border: 1px solid black;
+}
+
+/*------------------------------FOOTER---------------------------------------------*/
+
+.footer{
+    position: relative;
+    background-color: lightgreen;
+}
+.foottext{
+    padding: 2em;
+}
+.fblogo img{
+    float: right;
+    max-height: 100px;
+    position: relative;
+    right: 20px;
+    top: 20px;
+}

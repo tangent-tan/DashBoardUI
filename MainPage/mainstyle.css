@@ -1,0 +1,248 @@
+html{
+    background-image: url(bg1.jpg);
+}
+    
+body{
+    margin: 0 auto;
+    padding: 0px;
+    min-width: 900px;
+    font-size: 20px;
+    line-height: 1em;
+    background-color: white;
+    font-family: Lato;
+    max-width: 1500px;
+}
+
+
+.header{
+    height: 100px;
+    background-color: #2D94EE;
+}
+.header span{
+    font-size: 80px;
+    margin-left: 40px;
+    position: relative;
+    bottom: 10px;
+    font-weight: bold;
+    text-shadow: 3px 2px 20px #333333;
+    color: #F1F5F8;
+}
+#logo{
+    margin-top: 10px;
+    margin-left: 10px;
+    max-height: 80px;
+}
+#contact {
+    float: right;
+    font-size: 30px;
+    padding: 20px;
+    margin-top: 10px;
+    background-color: #D6DEE0;
+    border-radius: 100px 0px 0px 100px;
+    color: #153BFA;
+    font-weight: bold;
+    border: 10px solid #F0F1F1;  
+}
+
+/*------------------------------MENU BAR---------------------------------------------*/
+
+.lish-menu{
+    height: 100px;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;;
+    text-shadow: 3px 2px 30px #333333;
+    background: #7C818C;
+    border: 1px solid #A8A8A8;
+    box-shadow: 0px 50px 30px 0px #B0B8C6 inset;
+}
+.lish-menu ul{
+    height: auto;
+    float: left;
+}
+.lish-menu li{
+    display: inline;
+    padding: 10px 50px;
+}
+.lish-menu a{
+    color: #F0F1F4;
+    text-decoration: none;
+}
+.lish-menu a:hover{
+    color: #F90;
+}
+
+/*------------------------------LOGIN PANEL-----------------------------------------*/
+
+.login{
+    height: 450px;
+    border: 1px solid #A8A8A8;
+    background: #E0E0E2;
+}
+.loginpanel{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+    background-color:#2D94EE;
+    position: relative;
+    left: 30px;
+    top: 20px;
+    width: 600px;
+    font-size: 30px;
+    color: #F1F5F8;
+}
+.loginpanel h2{
+    text-decoration: underline;
+}
+.loginbut{
+    margin-left: 60px;
+    margin-bottom: 10px;
+    
+}
+.loginbut button{
+    width: 150px;
+    height: 60px;
+    font-size: 30px;
+    font-weight: 600;
+    border: 5px solid #9E9E9E;
+    border-radius: 10px;
+    background: #E9E9E9;
+    color: #55B8FF;
+}
+.loginbut button:hover{
+    box-shadow: 0px -5px 10px 1px #919394 inset;
+    cursor:pointer;
+}
+.loginbut button:active{
+    background: #ACB4BA;
+}
+.registerbut{
+    margin-left: 20px;
+}
+.loginpanel input {
+    height: 30px;
+    width: 300px;
+    font-size: 20px;
+}
+#forgetpwd:hover{
+    font-weight: bolder;
+}
+
+/*------------------------------------OVERVIEW-----------------------------------*/
+
+.overview{
+    min-width: 900px;
+    height: 550px;
+    padding: 5px;
+    background: #CDEBFF;
+    box-shadow: 30px 90px 100px 0px #FFFFFF inset, -30px -30px 100px 0px #FFFFFF inset;
+    border: 1px solid #919394;
+
+}
+.overview h1{
+    min-width: 900px;
+    text-align: center;
+    text-shadow: 3px 2px 50px #9FC7F1;
+    color: #67696B;
+    float: center;
+}
+.summary_table{
+    margin: 50px 50px;
+    text-align: center;
+    font-size: 22px;
+    margin: auto;
+}
+.summary_table td{
+    width: 500px;
+    padding-top: 20px;
+}
+.summary_table p{
+    width: 300px;
+    margin: auto;
+    margin-top: 1em;
+}
+.summary_table span{
+    font-weight: bold;
+}
+.summary_table #logo{
+    box-shadow: 10px 0px 20px 5px #FFFFFF, -10px -0px 20px 5px #FFFFFF;
+}
+
+
+/*------------------------------------FEATURES-----------------------------------*/
+
+.features{
+    height: 400px;
+    padding: 5px;
+    background: #FCBC8E;
+    box-shadow: 10px 90px 100px 0px #FFFFFF inset,-10px -30px 100px 0px #FFFFFF inset,30px 30px 100px 0px #FDCC82 inset, -30px -30px 100px 0px #FDCC82 inset;
+    border: 1px solid #919394;
+}
+.features h1{
+    text-align: center;
+    text-shadow: 3px 2px 50px #FCBC8E;
+    color: #67696B;
+}
+.features_table{
+    margin: 50px 50px;
+    text-align: center;
+    font-size: 22px;
+}
+.features_table td{
+    width: 500px
+}   
+.features_table h3{
+    
+}
+
+/*------------------------------------CAFE LIST-----------------------------------*/
+
+.cafelist{
+    height: auto;
+    background-color: #9AFF8F;
+    padding: 5px;
+    box-shadow: 10px 90px 100px 0px #FFFFFF inset,-10px -30px 100px 0px #FFFFFF inset,30px 30px 100px 0px #61FF4F inset, -30px -30px 100px 0px #61FF4F inset;
+}
+.cafelist h1{
+    text-align: center;
+    text-shadow: 3px 2px 50px #61FF4F;
+    color: #67696B;
+}
+.cafelist ul li{
+    display: inline-block;
+    margin: 50px 20px;
+    text-align: center;
+    width: 300px;
+    
+}
+.cafelist img{
+    max-height: 200px;
+    max-width: 250px;
+}
+.cafelist h3{
+    margin-top: 5px;
+}
+
+
+/*---------------------------------FOOTER--------------------------------------*/
+
+
+.footer{
+    position: relative;
+    background-color: #2D94EE;
+    box-shadow: 30px 30px 100px 0px #FFFFFF inset, -30px -30px 100px 0px #FFFFFF inset;
+}
+.foottext{
+    position: relative;
+    bottom: 60px;
+    left: 200px;
+}
+.fblogo img{
+    max-height: 100px;
+    position: relative;
+    left: 60px;
+    top: 70px;
+    border: 3px solid white;
+    border-radius: 10px;
+}

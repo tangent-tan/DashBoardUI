@@ -1,0 +1,289 @@
+html{
+    background: #BDFDFF;
+}
+    
+body{
+    margin: 0 auto;
+    padding: 0px;
+    min-width: 900px;
+    max-width: 1500px;
+    font-size: 20px;
+    line-height: 1em;
+    background-color: white;
+    font-family: Lato;
+    box-shadow: -20px 0px 30px 0px #FFFFFF,20px 0px 30px 0px #FFFFFF;
+}
+
+
+.header{
+    height: 100px;
+    background-color: #2D94EE;
+}
+.header span{
+    font-size: 80px;
+    margin-left: 40px;
+    position: relative;
+    bottom: 10px;
+    font-weight: bold;
+    text-shadow: 3px 2px 20px #333333;
+    color: #F1F5F8;
+}
+#logo{
+    margin-top: 10px;
+    margin-left: 10px;
+    max-height: 80px;
+}
+#contact {
+    float: right;
+    font-size: 30px;
+    padding: 20px;
+    margin-top: 10px;
+    background-color: #D6DEE0;
+    border-radius: 100px 0px 0px 100px;
+    color: #153BFA;
+    font-weight: bold;
+    border: 10px solid #F0F1F1;  
+}
+
+/*------------------------------MENU BAR---------------------------------------------*/
+
+.lish-menu{
+    height: 90px;
+    min-width: 1200px;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;;
+    text-shadow: 3px 2px 30px #333333;
+    background: #7C818C;
+    border: 1px solid #A8A8A8;
+    box-shadow: 0px 50px 30px 0px #B0B8C6 inset;
+}
+.lish-menu ul{
+    height: auto;
+    float: left;
+}
+.lish-menu li{
+    display: inline;
+    padding: 10px 50px;
+}
+.lish-menu a{
+    color: #F0F1F4;
+    text-decoration: none;
+}
+.lish-menu a:hover{
+    color: #F90;
+}
+
+/*------------------------------CENTER---------------------------------------------*/
+
+.center{
+    height: 950px;
+    padding: 10px;
+    background-color: white;
+}
+.pageheader{
+    margin: auto;
+    font-size: 30px;
+    width: 200px;
+}
+
+/*---------------------------------MENU--------------------------------------*/
+
+.menu{
+    position: relative;
+    height: 850px;
+    min-width: 900px;
+    float:left;
+    border: 1px solid black;
+    background-color: #FFFFF0;
+    border-radius: 10px;
+}
+
+.category{
+    margin: auto;
+    background: #24A8FF;
+    padding: 10px;
+}
+.category li{
+    display: inline;
+    border-right: 5px solid black;
+}
+.category button{
+    width: 200px;
+    height: 80px;
+    font-size: 28px;
+    font-weight: bolder;
+    border-radius: 10px;
+    background: #24A8FF;
+    color: #EEF9FF;
+    border: none;
+}
+.category button:hover{
+    background:#3A4246;
+    cursor: pointer;
+}
+.category button:active{
+    background: #1F2121;
+}
+
+.menulist{
+    list-style: none;
+    height: 600px;
+    overflow: auto;
+}
+.menulist li{
+    display: inline-block;
+    margin: 10px;
+}
+.menulist button{
+    width: 200px;
+    height: 100px;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 20px;
+    background: #00416D;
+    color: #FFFFFF;
+}
+.menulist h3{
+    position: relative;
+    bottom: 10px;
+}
+.menulist h4{
+    position: relative;
+    bottom: 20px;
+}
+.menulist button:hover{
+    background: #001034;
+    cursor: pointer;
+}
+.menulist button:active{
+    background: #2870F6;
+}
+
+.add_item{
+    width: 300px;
+    height: 80px;
+    margin: auto;
+}
+.add_item button{
+    width: 300px;
+    height: 80px;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    background: #24A8FF;
+    color: #FFFFFF;
+    border-radius: 10px;
+}
+.add_item button:hover{
+    cursor: pointer;
+}
+.add_item button:active{
+    background: #1A699F;
+}
+
+/*---------------------------------BASKET--------------------------------------*/
+
+.basket{
+    width: 500px;
+    height: 850px;
+    background-color: #FFFFF0;
+    border-radius: 10px;
+    position: fixed;
+    margin-left: 950px;
+    top: 250px;
+}
+.basket h2{
+    margin: 0 auto;
+    width: 180px;
+    height: 30px;
+    margin-top: 20px;
+    text-decoration: underline;
+    text-align: center;
+}
+.myorder_table{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    outline: 1px solid;
+    overflow: auto;
+    table-layout: fixed;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.myorder th{
+    height: 50px;
+    border: 1px solid black;
+    background: #FF1B2E;
+    color: white;
+    font-weight: bold;
+}
+.myorder td{
+    background: #ABABAB;
+    color: white;
+}
+.item_name{
+    width: 300px;
+}
+.item_price{
+    width: 50px;
+}
+.item_qty{
+    width: 50px;
+}
+.item_total{
+    width: 50px;
+}
+.myorder td{
+    padding: 10px;
+}
+.order_sum p{
+    float:right;
+    font-size: 30px;
+    padding: 5px;
+    margin-right: 30px;
+    position: relative;
+    top: 450px;  
+}
+.place_order{
+    width: 150px;
+    height: 80px;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    background: #24A8FF;
+    color: #FFFFFF;
+    border-radius: 10px;
+    float:right;
+    position: relative;
+    top: 550px;
+    left: 15px;
+}
+.place_order:hover{
+    cursor: pointer;
+}
+.place_order:active{
+    background: #1A699F;
+}
+
+/*---------------------------------FOOTER--------------------------------------*/
+
+
+.footer{
+    position: relative;
+    background-color: #2D94EE;
+    box-shadow: 30px 30px 100px 0px #FFFFFF inset, -30px -30px 100px 0px #FFFFFF inset;
+}
+.foottext{
+    position: relative;
+    bottom: 60px;
+    left: 200px;
+}
+.fblogo img{
+    max-height: 100px;
+    position: relative;
+    left: 60px;
+    top: 70px;
+    border: 3px solid white;
+    border-radius: 10px;
+}
