@@ -16,14 +16,14 @@ body{
 
 
 .header{
-    height: 100px;
+    height: 80px;
     background-color: #2D94EE;
 }
 .header span{
-    font-size: 80px;
-    margin-left: 40px;
+    font-size: 60px;
+    margin-left: 30px;
     position: relative;
-    bottom: 10px;
+    bottom: 7px;
     font-weight: bold;
     text-shadow: 3px 2px 20px #333333;
     color: #F1F5F8;
@@ -31,13 +31,12 @@ body{
 #logo{
     margin-top: 10px;
     margin-left: 10px;
-    max-height: 80px;
+    max-height: 60px;
 }
 #contact {
     float: right;
     font-size: 30px;
     padding: 20px;
-    margin-top: 10px;
     background-color: #D6DEE0;
     border-radius: 100px 0px 0px 100px;
     color: #153BFA;
@@ -48,7 +47,7 @@ body{
 /*------------------------------MENU BAR---------------------------------------------*/
 
 .lish-menu{
-    height: 90px;
+    height: 60px;
     min-width: 1200px;
     font-size: 30px;
     font-weight: bold;
@@ -59,13 +58,14 @@ body{
     box-shadow: 0px 50px 30px 0px #B0B8C6 inset;
 }
 .lish-menu ul{
-    height: auto;
     float: left;
+    margin: 20px 0px;
+    
 }
 .lish-menu li{
     display: inline;
     min-width: 900px;
-    padding: 10px 30px;
+    padding: 0px 30px;
 }
 .lish-menu a{
     color: #F0F1F4;
